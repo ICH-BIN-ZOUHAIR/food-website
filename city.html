@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>FOODELIVERY</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/FoodLogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="city.html">CITY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR CITYS</h1>
+    
+    </section>
+    
+    <!--------- CITY -------->
+    
+    <section class="city-content">
+        <div class="row">
+            <div class="city-left">
+                <img src="images/rbt.jpg">
+                <h2>RABAT</h2>
+                <p>We are now IN RABAT IN HAY-ARRIYADH</p>
+                <br>
+                <p>La ville est située au bord de l'Atlantique au nord-ouest du Maroc, à 40 km au sud de Kénitra et 240 km au sud-ouest de Tanger et du détroit de Gibraltar, et à 87 km au nord-est de Casablanca. Elle est séparée de la ville de Salé au niveau de l'embouchure du Bouregreg, d'où leur surnom de « villes jumelles »6.
+                Sur le plan administratif, son territoire — à distinguer de celui de l’agglomération rabataise incluant sa banlieue — d'une superficie de 118,5 km27, correspond à celui de la préfecture de Rabat qui, depuis le retour au principe de l'unité de la ville en 20028, est composée d'une part de la commune urbaine de Rabat, divisée en cinq arrondissements ; d'autre part de la commune urbaine de Touarga, où se situe le palais royal, enclavée dans la première. Lors du dernier recensement de 2014, sa population était de 577 827 habitants9, faisant de Rabat la 7e plus grande ville du royaume. Avec sa banlieue, elle forme la deuxième plus grande agglomération du pays après celle de Casablanca10.</p>
+                <br>
+                <p>La ville a été fondée au xiie siècle par les Almohades11, qui y édifièrent une citadelle (devenue la kasbah des Oudayas), une mosquée et une résidence. C’était alors ce qu'on appelle un ribat (« forteresse »12). Le nom actuel vient de Ribat Al Fath, « le Camp de la Victoire ». Plus tard, le petit-fils d'Al-Mūmin – Ya'qub al-Mansūr – agrandit et compléta la ville, l'entourant notamment de murailles. Par la suite, elle servit de base aux expéditions almohades en Andalousie.
+                Après 1269, quand les Mérinides choisirent Fès comme capitale, Rabat entra dans une période de déclin. Ainsi, l'explorateur morisque Hassan al-Wazzan a rapporté qu'il n'y subsistait que 100 maisons habitées en 1515. En 1609, à la suite du décret d’expulsion de Philippe III, 13 000 Morisques y trouvèrent refuge, revitalisant ainsi la ville13. Jusqu'au xixe siècle, Rabat est connue sous le nom de Salé-le-Neuf.
+                En 1912, Lyautey fit de Rabat le siège du résident général et la capitale du protectorat français au Maroc14. En 1956, à l’indépendance du Maroc, la ville resta la capitale du pays15.
+                Depuis 2012, un ensemble de sites de Rabat est inscrit sur la liste du patrimoine mondial de l'Unesco. La ville a aussi reçu la deuxième place du classement CNN des « Meilleures destinations touristiques de 2013 »16.</p>
+                
+                <div class="comment-box">
+                    <h3>Leave Us A Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+                
+                
+                
+                
+            </div>
+            <div class="city-right">
+                <h3>Some Analytics</h3>
+                <div>
+                    <span>Orders Per Day</span>
+                    <span>69</span>
+                </div>
+                <div>
+                    <span>Visits Per Day</span>
+                    <span>156</span>
+                </div>
+                <div>
+                    <span>Likes</span>
+                    <span>911</span>
+                </div>
+                <div>
+                    <span>Coments</span>
+                    <span>568</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- --- Footer -------->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We Wish Y'All Liked Our Services For Now,...<br>If You Need Help Dont Hesitate  About Contacting Us</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/zouhair.ddach.12"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/iizouhair0?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/zouhair-ouddach-33b09024b"><i class="fa fa-linkedin"></i></a>
+            <a href="https://t.me/iizouhair0"><i class="fa fa-telegram"></i></a>
+        </div>
+        <p>CopyRight<i class="fa fa-copyright"></i>2022. @FOODELIVERY</p>
+    </section> 
+    
+    
+    
+    
+    
+    <!--------JavaScript for Toggle Menu------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+        
+    </script>
+    </body>
+</html>
